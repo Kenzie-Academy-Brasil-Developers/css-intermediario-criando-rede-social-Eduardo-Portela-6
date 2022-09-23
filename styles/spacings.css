@@ -1,0 +1,49 @@
+.gap-1{
+    gap: var(--gap-1);
+}
+.gap-2{
+    gap: var(--gap-2);
+}
+
+.pad-tb-1{
+    padding: 32px 0;
+}
+.pad-tb-2{
+    padding: 16px 0;
+}
+
+.pad-lf-1{
+    padding: 0 32px;
+}
+.pad-lf-2{
+    padding: 0 16px;
+}
+
+.padding-full-1{
+    padding: 32px;
+}
+.padding-full-2{
+    padding: 16px;
+}
+
+.margin-tb-1{
+    margin: 32px 0;
+}
+
+.margin-tb-2{
+    margin: 20px 0;
+}
+
+.margin-lf-1{
+    margin: 0 32px;
+}
+.margin-lf-2{
+    margin: 0 16px;
+}
+
+.margin-full-1{
+    margin: 32px;
+}
+.margin-full-2{
+    margin: 16px;
+}

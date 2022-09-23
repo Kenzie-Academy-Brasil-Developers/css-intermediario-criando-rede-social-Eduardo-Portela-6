@@ -1,0 +1,43 @@
+button{
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    border: 1px solid var(--color-grey-3);
+    color: var(--color-white);
+}
+
+.posts .profile .open-post{
+    width: 98px;
+    height: 38px;
+    background-color: var(--color-grey-1);
+
+}
+.posts .profile .like{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-white);
+    border: none;
+}
+.posts .profile .like img{
+   width:20px;
+   height:20px;
+}
+
+.sugestion-list .profile .follow-button{
+    background-color: var(--color-white);
+    height: 25px;
+    width: 70px;
+    font-weight: bold;
+    color: var(--color-grey-3);
+}
+
+.button-post{
+    position: absolute;
+    right: 0;
+    width: 69px;
+    height: 38px;
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-3);
+    border: none;
+    margin-top: 20px;
+
+}

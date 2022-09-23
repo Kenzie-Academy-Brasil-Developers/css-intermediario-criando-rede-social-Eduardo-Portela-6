@@ -1,0 +1,45 @@
+@media(min-width: 768px){
+    .criar-post{
+        width: 713px;
+    }
+    
+    .container{
+        display: flex;
+        gap: var(--gap-1);
+        flex-wrap: wrap;
+    }
+    .container-posts{
+        max-width: 1200px;
+        padding: var(--pad-lf-2);
+        width: 713px;
+    }
+
+    .sugestion-list{
+        flex-direction: column;
+        height: 366px;
+    }
+    .sugestions{
+        width: 421px;
+        margin-top: 146px;
+        position: sticky;
+        top: 90px;
+    }
+
+    .sugestions h2{
+        font-size: var(--title-2);
+    }
+
+    .sugestion-list .profile{
+        padding: var(--padding-full-2);
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sugestion-list .profile .follow-button{
+        position: static;
+    }
+
+    .modal{
+        height: max-content;
+    }
+}

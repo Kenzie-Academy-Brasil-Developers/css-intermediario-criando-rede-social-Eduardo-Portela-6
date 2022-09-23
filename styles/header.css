@@ -1,0 +1,19 @@
+.header{
+    background-color: var(--color-grey-1);
+    height: 76px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.header .container h1{
+    color: var(--color-white);
+}
+
+.header .container .quit{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+}
