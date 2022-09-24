@@ -43,3 +43,10 @@
         height: max-content;
     }
 }
+
+@media(max-width: 1216px){
+    .sugestions{
+        position: static;
+    }
+
+}
