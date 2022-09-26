@@ -17,7 +17,8 @@
     background-color: var(--color-white);
     width: 700px;
     max-width: 90%;
-    height: 95vh;
+    height: max-content;
+    max-height: 95vh;
     position: relative;
     overflow-y: scroll;
     z-index: 1;
@@ -39,13 +40,14 @@
 .close-modal{
     width: 30px;
     height: 30px;
-    background-color: transparent;
+    background-color: var(--color-grey-4);
     border: none;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 15px;
     cursor: pointer;
     color: var(--grey-1);
+    border-radius: 50%;
 }
 
 @keyframes modalAnimation{

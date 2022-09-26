@@ -3,6 +3,7 @@ input, textarea{
     border-radius: var(--radius-1);
     border: 1px solid var(--color-grey-4);
     padding-left: 16px;
+    outline: none;
 }
 
 .section-posts input{
@@ -10,3 +11,7 @@ input, textarea{
     margin: 20px 0px;
 }
 
+
+.section-posts input:focus, textarea:focus{
+    border: 2px solid var(--brand-1);
+}

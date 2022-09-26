@@ -9,8 +9,12 @@ button{
     width: 98px;
     height: 38px;
     background-color: var(--color-grey-1);
-
 }
+
+.posts .profile .open-post:hover{
+    background-color: var(--color-grey-0);
+}
+
 .posts .profile .like{
     width: 20px;
     height: 20px;
@@ -27,7 +31,13 @@ button{
     height: 25px;
     width: 70px;
     font-weight: bold;
-    color: var(--color-grey-3);
+    color: var(--color-grey-1);
+}
+
+.sugestion-list .profile .follow-button:hover{
+    background-color: #EDF2FF;
+    border: 2px solid var(--brand-1);
+    color: var(--brand-1);
 }
 
 .button-post{
@@ -40,6 +50,10 @@ button{
     border: none;
     margin-top: 30px;
     margin-right: 16px;
+}
+
+.button-post:hover{
+    background-color: var(--brand-2);
 }
 
 .button-follow-on{
