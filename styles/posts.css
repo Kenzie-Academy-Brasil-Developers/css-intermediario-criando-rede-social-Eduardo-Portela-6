@@ -1,6 +1,7 @@
 .criar-post{
     margin-top: 146px;
     position: relative;
+
 }
 
 .criar-post .profile img{
@@ -15,8 +16,28 @@
 
 .post-list .profile{
     margin-bottom: 16px;
+    animation: postAnimation 1.5s ease;
+}
+
+.post-description-cut{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 
+@keyframes postAnimation{
+    0%{
+        opacity: 0;
+        
 
+    }
+
+    100%{
+        opacity: 1;
+        
+    }
+
+}
 

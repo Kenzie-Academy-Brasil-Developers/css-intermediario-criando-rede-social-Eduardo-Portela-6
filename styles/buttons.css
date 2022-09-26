@@ -35,9 +35,24 @@ button{
     right: 0;
     width: 69px;
     height: 38px;
-    background-color: var(--color-grey-4);
-    color: var(--color-grey-3);
+    background-color: var(--brand-1);
+    color: var(--color-white);
     border: none;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 16px;
+}
 
+.button-follow-on{
+    background-color: var(--brand-1);
+    color: var(--color-white);
+    width: 90px;
+    height: 25px;
+}
+
+.like{
+    color: var(--color-grey-2);
+}
+
+.like-red{
+    color: red;
 }

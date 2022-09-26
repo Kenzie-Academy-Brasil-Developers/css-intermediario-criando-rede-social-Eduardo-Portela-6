@@ -35,26 +35,26 @@
     </header>
 
     <main class="container">
-      <section class="criar-post">
+      <section class="criar-post padding-full-2 box-shadow-default">
 
         <div class="profile flex align-center gap-2">
-            <img src="assets/img/user1.svg" alt="imagem-Samuel">
+            <img src="assets/img/eduardo.png" alt="imagem-Samuel">
             <div>
-              <p>Samuel Leão</p>
+              <p>Eduardo Portela</p>
               <cite class="text-3">Front end Enginer</cite>
             </div>
         </div>
 
         <div class="section-posts">
-          <input type="text" placeholder="Titulo do post aqui">
+          <input id="new-post-title" type="text" placeholder="Titulo do post aqui" required="True">
 
-          <textarea class="padding-full-2" name="description" id="description" cols="30" rows="10" placeholder="Digite a descrição do post aqui..."></textarea>
+          <textarea class="padding-full-2" name="description" id="description" cols="30" rows="10" placeholder="Digite a descrição do post aqui..." required></textarea>
         </div>
 
         <button class="button-post">Postar</button>
       </section>
 
-      <section class="sugestions">
+      <section class="sugestions padding-full-2 box-shadow-default">
         <aside>
             <h2 class="title pad-lf-2 text-1">Sugestões para você seguir</h2>
             <ul class="sugestion-list flex pad-lf-2">
@@ -64,8 +64,8 @@
       </section>
 
       <section class=" posts container-posts ">
-        <h2>Posts</h2>
-        <ul class="post-list">
+        <h2 class="pad-tb-2">Posts</h2>
+        <ul class="post-list padding-full-2 box-shadow-default">
           
         </ul>
       </section>

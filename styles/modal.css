@@ -8,7 +8,8 @@
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 2;
+    overflow-y: scroll;
 }
 
 .modal{
@@ -16,8 +17,10 @@
     background-color: var(--color-white);
     width: 700px;
     max-width: 90%;
-    height: max-content;
+    height: 95vh;
     position: relative;
+    overflow-y: scroll;
+    z-index: 1;
 }
 
 .modal .div-profile img{

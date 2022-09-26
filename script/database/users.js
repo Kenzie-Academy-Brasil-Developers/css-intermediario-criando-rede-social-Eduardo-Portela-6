@@ -2,9 +2,9 @@
 const users = [
   {
     id: 1,
-    user: "Samuel Leão",
+    user: "Eduardo Portela",
     stack: "Front end Engineer",
-    img:"./assets/img/user1.svg",
+    img:"./assets/img/eduardo.png",
   },
   {
     id: 2,
